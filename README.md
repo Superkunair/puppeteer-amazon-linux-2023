@@ -22,8 +22,6 @@ RUN dnf install -y https://dl.google.com/linux/direct/google-chrome-stable_curre
 
 ```
 
-### After doing this you should see:
+### After doing this you should see the file generated without:
 
 ![1714263507505](images/README/1714263507505.png)
-
-### Finally generating the file without problems
