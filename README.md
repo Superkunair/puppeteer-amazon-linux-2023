@@ -25,3 +25,11 @@ RUN dnf install -y https://dl.google.com/linux/direct/google-chrome-stable_curre
 ### After doing this you should see the file generated without:
 
 ![1714263507505](images/README/1714263507505.png)
+
+#### If using elastic beanstalk be sure to create inside folder .elasticbeanstalk a file that contains installation
+`install-chrome.config`
+```yaml
+commands:
+  chrome:
+    command: dnf install -y https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+```
