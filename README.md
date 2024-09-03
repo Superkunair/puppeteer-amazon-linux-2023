@@ -26,7 +26,7 @@ RUN dnf install -y https://dl.google.com/linux/direct/google-chrome-stable_curre
 
 ![1714263507505](images/README/1714263507505.png)
 
-#### If using elastic beanstalk be sure to create inside folder .elasticbeanstalk a file that contains installation
+#### If using elastic beanstalk be sure to create inside folder .ebextensions a file that contains installation
 `install-chrome.config`
 ```yaml
 commands:
